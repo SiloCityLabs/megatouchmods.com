@@ -1,0 +1,59 @@
+[[social_icons]]
+id = "email"
+url = "mailto:%s"
+title = "Email me"
+icon = "icon-mail"
+
+[[social_icons]]
+id = "facebook"
+url = "https://www.facebook.com/%s"
+title = "Facebook"
+icon = "icon-facebook"
+
+[[social_icons]]
+id = "gitlab"
+url = "https://gitlab.com/%s"
+title = "GitLab"
+icon = "icon-gitlab"
+
+[[social_icons]]
+id = "github"
+url = "https://github.com/%s"
+title = "GitHub"
+icon = "icon-github"
+
+[[social_icons]]
+id = "twitter"
+url = "https://twitter.com/%s"
+title = "Twitter"
+icon = "icon-twitter"
+
+[[social_icons]]
+id = "reddit"
+url = "https://reddit.com/u/%s"
+title = "Reddit"
+icon = "icon-reddit-alien"
+
+[[social_icons]]
+id = "linkedin"
+url = "https://linkedin.com/in/%s"
+title = "LinkedIn"
+icon = "icon-linkedin"
+
+[[social_icons]]
+id = "linkedin-company"
+url = "https://linkedin.com/company/%s"
+title = "LinkedIn"
+icon = "icon-linkedin"
+
+[[social_icons]]
+id = "youtube"
+url = "https://www.youtube.com/%s"
+title = "Youtube"
+icon = "icon-youtube-play"
+
+[[social_icons]]
+id = "newsletter"
+url = "/%s"
+title = "Newsletter"
+icon = "icon-newspaper"

@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html amp>
+  {{ partial "head.amp.html" . }}
+  <body>
+    {{ block "header" . }}{{ partial "header.amp.html" . }}{{ end }}
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>
+

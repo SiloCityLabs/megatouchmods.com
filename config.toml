@@ -1,0 +1,63 @@
+baseurl = "https://megatouchmods.com/"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "docs"
+title = "MegaTouch Mods"
+canonifyurls  = true
+
+DefaultContentLanguage = "en"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+disqusShortname = "sclblog-2"
+googleAnalytics = "UA-78246656-5"
+
+[Params]
+  subtitle = "MegaTouch Mods"
+  logo = "logo/144x144.png"
+  favicon = "favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  gcse = "006156681959470562953:oxkwuulite0"
+
+[[Params.bigimg]]
+  src = "img/sphere.jpg"
+
+[Author]
+  name = "Silo City Labs LLC"
+  email = "team@silocitylabs.com"
+  facebook = "SiloCityLabs"
+  gitlab = "silo-city-labs-llc"
+  github = "SiloCityLabs/blog"
+  twitter = "silocitylabs"
+  linkedin-company = "10586208"
+  youtube = "channel/UC9vgzat1SRdQ8NNsCQ6d7cA"
+  newsletter = "newsletter"
+
+[taxonomies]
+  device = "devices"
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "AMP"]
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Manuals"
+    url = "manuals"
+    weight = 3
+

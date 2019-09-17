@@ -1,0 +1,20 @@
+{{ $imgPath := (print "static" (.Get "src")) }}
+
+{{ if hasPrefix (.Get "src") "http"}}
+    {{ $imgPath = (.Get "src") }}
+{{ end }}
+
+{{ if (fileExists $imgPath) -}}
+    {{ $imgData := imageConfig $imgPath }}
+
+    {{ if .Get "caption" }}
+        <figure>
+            <amp-img src="{{.Get "src" }}" alt="{{.Get "alt" }}" height="{{ $imgData.Height }}" width="{{ $imgData.Width }}" layout="responsive"></amp-img>
+            <figcaption>{{.Get "caption" }}</figcaption>
+        </figure>
+    {{ else }}
+        <amp-img src="{{.Get "src" }}" alt="{{.Get "alt" }}" height="{{ $imgData.Height }}" width="{{ $imgData.Width }}" layout="responsive"></amp-img>
+    {{ end }}
+{{ else }}
+    {{ errorf "Specified file at %s not found. Cannot Generate AMP tag" $imgPath }}
+{{ end }}

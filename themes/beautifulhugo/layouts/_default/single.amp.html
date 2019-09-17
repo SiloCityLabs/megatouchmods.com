@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        {{ .Content }}
+      </article>
+
+      <div class="clearfix">
+        <div class="pull-right">
+          <a href="https://github.com/SiloCityLabs/blog/commits/master/content/{{ .File.Path }}">History</a> | 
+          <a href="https://github.com/SiloCityLabs/blog/edit/master/content/{{ .File.Path }}">Make an edit</a>
+        </div>
+      </div>
+      <br/>
+    </div>
+  </div>
+</div>
+{{ end }}

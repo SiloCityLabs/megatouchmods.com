@@ -1,0 +1,1 @@
+We are an independent development group based in Buffalo, NY. We work together to help each other out in our fields and open source projects. We live by the name Silo City Labs and work towards a better future for each other.
