@@ -14,7 +14,7 @@ disqusShortname = "sclblog-2"
 googleAnalytics = "UA-78246656-5"
 
 [Params]
-  subtitle = "MegaTouch Mods"
+  subtitle = "Merit MegaTouch Mods files and manuals"
   logo = "logo/144x144.png"
   favicon = "favicon.ico"
   dateFormat = "January 2, 2006"
@@ -23,19 +23,15 @@ googleAnalytics = "UA-78246656-5"
   comments = true
   gcse = "006156681959470562953:oxkwuulite0"
 
-[[Params.bigimg]]
-  src = "img/sphere.jpg"
-
 [Author]
   name = "Silo City Labs LLC"
   email = "team@silocitylabs.com"
   facebook = "SiloCityLabs"
   gitlab = "silo-city-labs-llc"
-  github = "SiloCityLabs/blog"
+  github = "SiloCityLabs/megatouchmods.com"
   twitter = "silocitylabs"
   linkedin-company = "10586208"
   youtube = "channel/UC9vgzat1SRdQ8NNsCQ6d7cA"
-  newsletter = "newsletter"
 
 [taxonomies]
   device = "devices"
@@ -47,17 +43,17 @@ googleAnalytics = "UA-78246656-5"
   page = ["HTML", "AMP"]
 
 [[menu.main]]
-    name = "Blog"
+    name = "Home"
     url = ""
     weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "page/about/"
+    name = "Blog"
+    url = "https://silocitylabs.com"
     weight = 2
 
 [[menu.main]]
-    name = "Manuals"
-    url = "manuals"
+    name = "Devices"
+    url = "device"
     weight = 3
 

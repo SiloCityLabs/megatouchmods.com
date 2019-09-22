@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on MegaTouch Mods</title>
+    <link>https://megatouchmods.com/tags/</link>
+    <description>Recent content in Tags on MegaTouch Mods</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>team@silocitylabs.com (Silo City Labs LLC)</managingEditor>
+    <webMaster>team@silocitylabs.com (Silo City Labs LLC)</webMaster>
+    <lastBuildDate>Sun, 22 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://megatouchmods.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>force</title>
+      <link>https://megatouchmods.com/tags/force/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      <author>team@silocitylabs.com (Silo City Labs LLC)</author>
+      <guid>https://megatouchmods.com/tags/force/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>force-classic</title>
+      <link>https://megatouchmods.com/tags/force-classic/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      <author>team@silocitylabs.com (Silo City Labs LLC)</author>
+      <guid>https://megatouchmods.com/tags/force-classic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>force-elite</title>
+      <link>https://megatouchmods.com/tags/force-elite/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      <author>team@silocitylabs.com (Silo City Labs LLC)</author>
+      <guid>https://megatouchmods.com/tags/force-elite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>force-radion</title>
+      <link>https://megatouchmods.com/tags/force-radion/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      <author>team@silocitylabs.com (Silo City Labs LLC)</author>
+      <guid>https://megatouchmods.com/tags/force-radion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>force-upright</title>
+      <link>https://megatouchmods.com/tags/force-upright/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      <author>team@silocitylabs.com (Silo City Labs LLC)</author>
+      <guid>https://megatouchmods.com/tags/force-upright/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>patcher</title>
+      <link>https://megatouchmods.com/tags/patcher/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      <author>team@silocitylabs.com (Silo City Labs LLC)</author>
+      <guid>https://megatouchmods.com/tags/patcher/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

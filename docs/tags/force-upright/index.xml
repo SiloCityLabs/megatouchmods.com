@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>force-upright on MegaTouch Mods</title>
+    <link>https://megatouchmods.com/tags/force-upright/</link>
+    <description>Recent content in force-upright on MegaTouch Mods</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>team@silocitylabs.com (Silo City Labs LLC)</managingEditor>
+    <webMaster>team@silocitylabs.com (Silo City Labs LLC)</webMaster>
+    <lastBuildDate>Sun, 22 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://megatouchmods.com/tags/force-upright/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Megatouch Force</title>
+      <link>https://megatouchmods.com/device/megatouch-force/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      <author>team@silocitylabs.com (Silo City Labs LLC)</author>
+      <guid>https://megatouchmods.com/device/megatouch-force/</guid>
+      <description>&lt;p&gt;Released in 2002, Software for Force was released until 2011. Any &amp;ldquo;Force&amp;rdquo; machine will only take &amp;ldquo;Force&amp;rdquo; software.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -209,15 +209,10 @@ figure {
 }
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
-  border-radius: 50%;
   display: inline-block;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 .navbar-custom .avatar-container  .avatar-img {
   width: 100%;
-  border-radius: 50%;
   display: block;
 }
 
@@ -239,9 +234,6 @@ figure {
   
   .navbar-custom .avatar-container  .avatar-img-border {
     width: 100%;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
   }
   
   .navbar-custom .avatar-container  .avatar-img {
@@ -383,16 +375,28 @@ h2.post-title {
   font-weight: 300;
   margin-bottom: 10px;
 }
+.intro-header .post-preview .post-meta,
+.intro-header .post-heading .post-meta {
+  color: #f1f1f1;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 0 10px;
+}
+.intro-header .post-preview .post-meta a,
+.intro-header .post-heading .post-meta a {
+  color: #e7e6e6;
+  text-decoration: none;
+}
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #808080;
+  color: #585858;
   font-size: 18px;
   font-style: italic;
   margin: 0 0 10px;
 }
 .post-preview .post-meta a,
 .post-heading .post-meta a {
-  color: #404040;
+  color: #202020;
   text-decoration: none;
 }
 .post-preview .post-entry {
@@ -479,7 +483,13 @@ h2.post-title {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: 80px 0 20px;
+  background-image: url(images/overlay.png),-moz-linear-gradient(45deg,#F7941E 0,#16C1F3 100%);
+  background-image: url(images/overlay.png),-webkit-linear-gradient(45deg,#F7941E 0,#16C1F3 100%);
+  background-image: url(images/overlay.png),-ms-linear-gradient(45deg,#F7941E 0,#16C1F3 100%);
+  background-image: url(images/overlay.png),linear-gradient(45deg,#F7941E 0,#16C1F3 100%);
+  color: white;
+  padding: 80px 0 20px 0;
+  margin: 0 0 20px 0;
   position: relative;
 }
 .intro-header.big-img {
@@ -559,7 +569,7 @@ h2.post-title {
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
-    margin-top: 130px;
+    margin-top: 60px;
   }
   .intro-header.big-img {
     margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */
